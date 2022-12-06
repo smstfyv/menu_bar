@@ -1,0 +1,43 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: url(https://hdqwalls.com/download/stranger-things-season-3-2019-4k-5k-38-1920x1080.jpg);
+    background-size: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.applemenu ul{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+    display: flex;
+    margin: 50px 0px 0px;
+    padding: 0 10px;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    backdrop-filter: blur(10px);
+    
+}
+.applemenu ul li{
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0px 8px;
+    padding: 12px 16px;
+    border-radius: 25px;
+    background-color: rgba(255,255,255,0);
+    -webkit-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+    -ms-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+    font-family: sans-serif;
+}
+.applemenu li:hover{
+    color: black;
+    background-color: white;
+    transform: scale(1.25);
+    background-color: rgba(255,255,255,1);
+    
+}
